@@ -1,10 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import WelcomeScreen from "./screens/WelcomeScreen";
+
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Yeah! Open up App.js to start working on your app!</Text>
+      <WelcomeScreen />
     </View>
   );
 }

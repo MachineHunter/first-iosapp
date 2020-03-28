@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 
 const CustomDrawerComponent = (props) => (
 	<SafeAreaView style={{ flex: 1 }}>
-		<View style={{ height:150, backgroundColor:"white" }}>
+		<View style={{ height:150, backgroundColor:"white", alignItems:"center", justifyContent:"center" }}>
 			<Image source={require('./assets/human-icon.png')} style={{ height:120, width:120, borderRadius:60 }} />
 		</View>
 		<ScrollView>

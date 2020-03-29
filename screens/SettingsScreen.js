@@ -3,6 +3,13 @@ import { View, Text, StyleSheet } from "react-native";
 import { Header, Left, Right, Title, Icon } from "native-base";
 
 class SettingsScreen extends Component {
+
+	static navigationOptions = {
+		drawerIcon : ({tintColor}) => (
+			<Icon name="settings" style={{ fontSize:24, color: tintColor }} />
+		)
+	}
+
 	render() {
 		return (
 			<View style={styles.container}>

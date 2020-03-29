@@ -36,5 +36,8 @@ const MenuBar = createDrawerNavigator({
 	Home:HomeScreen,
 	Settings:SettingsScreen
 }, {
-	contentComponent: CustomDrawerComponent
+	contentComponent: CustomDrawerComponent,
+	contentOptions: {
+		activeTintColor: "orange"
+	}
 })

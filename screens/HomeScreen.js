@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { Header, Left, Right, Title, Icon } from "native-base";
+import ToDoList from "./ToDoList"
 
 class HomeScreen extends Component {
 
@@ -24,9 +25,7 @@ class HomeScreen extends Component {
 						<Icon name="settings" style={styles.settings}/>
 					</Right>
 				</Header>
-				<View style={{ flex:1, alignItems:"center", justifyContent:"center" }}>
-					<Text>HomeScreen</Text>
-				</View>
+				<ToDoList/>
 			</View>
 		);
 	}

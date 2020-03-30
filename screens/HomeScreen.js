@@ -35,7 +35,7 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
 	header: {
-		backgroundColor:"black",
+		backgroundColor:"black"
 	},
 	icon: {
 		marginLeft: 10,
